@@ -1,26 +1,74 @@
-# Jaseci Overview
+# Jaseci Official Documentation
 
-## What is Jaseci?
+[Introduction](guide/introduction.md)
 
-Jaseci is an end-to-end open-source and Open Computational Model, Technology Stack, and Methodology for bleeding edge AI. It enables developers to rapidly build robust products with sophisticated AI capabilities at scale.
+# Getting Started
 
-## Why Jaseci?
+- [Installation](guide/installation.md)
+- [Setting Up Your Editor](guide/setting_up_your_editor.md)
+- [Writing Your First App](guide/writing_your_first_app.md)
+- [Understanding JAC Programs](guide/understanding_jac_programs.md)
 
-* Jaseci has powerful AI models which any developer can leverage in their application quickly and easily. '/
-* Jaseci Diffuse Runtime System , this runtime system handles the orchestration , configuration and optimization of the full cloud compute stack and inter-machine resources such as container formation , scaling and optimization . In essence it provides all the technology needed to develop an AI application in one platform.
-* Reduce Development team specializations. You'll only need a single Jaseci Engineer to do the work of DevOps Engineers, Frontend and Backend engineers and AI engineers.
-* Solve problems more readily with a graph-based representation of data.
-* Accelerate the development time of any AI application.
-* Save time with automatically generated APIs.
+# The JAC Programming Language Guide
 
-## Solutions Jaseci Provides
+- [Language Overview](guide/jac_language_overview.md)
+- [Lexical Structure](guide/lexical_structure.md)
+    - [Whitespace and Comments](guide/lexical_structure.md#whitespace_and_comments)
+    - [Keywords](guide/lexical_structure.md#keywords)
+    - [Operators](guide/lexical_structure.md#operators)
+- [Control Flow](guide/control_flow.md)
+- [Functions](guide/functions.md)
+- [Collections](guide/collections.md)
+- [Nodes](guide/nodes.md)
+    - [Defining node attributes](guide/nodes.md#defining_node_attributes)
+    - [Adding abilities](guide/nodes.md#adding_abilities)
+    - [Using Ineritance on Nodes](guide/nodes.md#inheritance)
+- [Edges](guide/edges.md)
+    - [Defining edge attributes](guide/edges.md#defining_edge_attributes)
+    - [Adding abilities](guide/edges.md#adding_abilities)
+    - [Using Ineritance on Nodes](guide/edges.md#inheritance)
+- [Graphs](guide/graphs.md)
+    - [Defining a Graph](guide/graphs.md#defining_a_graph)
+    - [Adding Nodes and Edges](guide/graphs.md#adding_nodes_and_edges)
+- [Walkers](guide/walkers.md)
+    - [Defining walker attributes](guide/walkers.md#defining_walker_attributes)
+    - [Adding abilities](guide/walkers.md#adding_abilities)
+    - [Using Ineritance on Walkers](guide/walkers.md#inheritance)
+    - [Traversing a Graph](guide/walkers.md#traversing_a_graph)
+    - [Referencing a Node in Context](guide/walkers.md#treferencing_a_node_in_context)
+- [Specifying Operating Context](guide/specifying_operating_context.md)
+- [Command Line IO](guide/command_line_io.md) 
+- [File IO](guide/file_io.md) 
+- [Error Handling](guide/error_handling.md) 
+- [Writing Unit Tests](guide/writing_unit_tests.md) 
 
-Developing AI models with Jaseci is way faster. Its requires 60% less effort when building with Jaseci. Here's why:
+# Jaseci Library Reference
 
-* Jaseci is a self-contained system
-* Provides API endpoints out of the box to accompany the model you are developing
-* Removes data management from your workflow
-* Includes scalable deployment with Kubernetes
-* Jaseci is a well structured stack
-* Jaseci comes with pre-built, pre-trained AI models for most AI Related tasks out of the box.
-* You only focus focus on building your solution instead of reinventing the wheel
+- [Jaseci Kit](jaseci_kit/README.md)
+    - [Encoders](jaseci_kit/modules/encoders/README.md)
+        - [USE Encoder](jaseci_kit/modules/encoders/use_enc/README.md)
+        - [USE QA](jaseci_kit/modules/encoders/use_qa/README.md)
+        - [FastText](jaseci_kit/modules/encoders/fast_enc/README.md)
+        - [Bi-Encoder](jaseci_kit/modules/encoders/bi_enc/README.md)
+    - [Entity Recognition](jaseci_kit/modules/entity_utils/README.md)
+        - [FLair NER](jaseci_kit/modules/entity_utils/flair_ner/README.md)
+        - [Transformer NER](jaseci_kit/modules/entity_utils/transformer_ner/README.md)
+        - [LSTM NER](jaseci_kit/modules/entity_utils/lstm_ner/README.md)
+    - [Text Summarization](jaseci_kit/modules/entity_utils/README.md)
+        - [CL Summarization](jaseci_kit/modules/entity_utils/flair_ner/README.md)
+        - [T5 Summarization](jaseci_kit/modules/entity_utils/transformer_ner/README.md)
+    - [Text Processing](jaseci_kit/modules/entity_utils/README.md)
+        - [Text Segmenter](jaseci_kit/modules/entity_utils/flair_ner/README.md)
+    - [Non-AI Tools](jaseci_kit/modules/entity_utils/README.md)
+        - [PDF Extractor](jaseci_kit/modules/entity_utils/flair_ner/README.md)
+
+- [Jaseci Core](jaseci_core/README.md)
+    - [SUMMARY.md](format/summary.md)
+        
+# API Reference 
+
+- [...](cli/README.md)
+
+-----------
+
+[Contributors](guide/contributors.md)

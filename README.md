@@ -1,15 +1,18 @@
 # Jaseci Official Documentation
 
 [Introduction](guide/introduction.md)
+[License](LICENSE.md)
+[About this Release](CHANGELOG.md)
+[How to Contribute](guide/contributing.md)
 
-# Getting Started
+## Getting Started
 
 - [Installation](guide/installation.md)
 - [Setting Up Your Editor](guide/setting_up_your_editor.md)
 - [Writing Your First App](guide/writing_your_first_app.md)
 - [Understanding JAC Programs](guide/understanding_jac_programs.md)
 
-# The JAC Programming Language Guide
+## The JAC Programming Language Guide
 
 - [Language Overview](guide/jac_language_overview.md)
 - [Lexical Structure](guide/lexical_structure.md)
@@ -42,7 +45,21 @@
 - [Error Handling](guide/error_handling.md) 
 - [Writing Unit Tests](guide/writing_unit_tests.md) 
 
-# Jaseci Library Reference
+## Samples and Tutorials
+
+- [Overview](guide/samples_and_tutorials.md)
+- [CanoniCAI](examples/canoniCAI/README.md)
+    - [Installation and Overview](examples/canoniCAI/README.md)
+    - [Adding a Competency](examples/canoniCAI/documentation/add_competency.md)
+    - [Adding a Follow up State](examples/canoniCAI/documentation/add_followup_state.md)
+    - [Building FAQ States](examples/canoniCAI/documentation/add_remove_data_from_faq_state.md)
+    - [Fixing Utterances](examples/canoniCAI/documentation/fixing_utterances.md)
+    - [Setting Up a Custom Module](examples/canoniCAI/documentation/jaseci_actions_load_local.md)
+- [NER Examples](examples/ner_examples/README.md)
+- [JPrime](examples/JPrime/README.md)
+
+
+## Jaseci Library Reference
 
 - [Jaseci Kit](jaseci_kit/README.md)
     - [Encoders](jaseci_kit/modules/encoders/README.md)
@@ -65,7 +82,7 @@
 - [Jaseci Core](jaseci_core/README.md)
     - [SUMMARY.md](format/summary.md)
         
-# API Reference 
+## API Reference 
 
 - [...](cli/README.md)
 
